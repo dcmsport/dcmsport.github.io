@@ -1,0 +1,23 @@
+- title: Sobre
+  url: "/about/"
+  side: left
+
+- title: "Notícias"
+  url: "/news/"
+  side: left
+
+- title: "Competições"
+  url: "/competitions/"
+  side: left
+
+- title: "QG"
+  url: "/location/"
+  side: left
+
+- title: "busca"
+  url: "/search/"
+  side: right
+
+- title: "Contato"
+  url: "/contact/"
+  side: right

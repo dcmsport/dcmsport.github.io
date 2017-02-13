@@ -1,0 +1,40 @@
+<script type="text/javascript">
+	var races = [];
+	{% for race in site.data.races %}
+		races.push({
+			"name":  "{{race.name}}",
+			"day":   "{{race.date}}".substring(0,2),
+			"month": "{{race.date}}".substring(3,5),
+			"year":  "{{race.date}}".substring(6),
+			"stage": "{{race.stage}}"
+		})
+	{% endfor %}
+</script>
+
+<div id="masthead-sidebar" class="small-3 columns masterhead-home-sidebar" style="padding: 0px">
+	<div style="height: 250px">
+		<div class="next_race_wrapper" style="position: absolute;transform: skew(-14deg, 0deg);background-color: rgba(0,0,0,0.8);margin: 0 17px 0 0;left: -20px;z-index: -1;width: 100%;margin: 5px 30px 5px 0;">
+			<div class="next_race_place_wrapper" style="background-color: #DF4949;padding-left: 15px;color: #FFF;font-weight: bold;margin-right: 55px;">
+				<div id="next_race_place" style="transform:skew(14deg, 0deg)"></div>
+			</div>
+		
+			<div id="clockdiv" style="transform:skew(14deg, 0deg);float: right;margin-right: 15px;margin-bottom: 5px;">
+				<div>
+					<span class="days"></span>
+					<div class="smalltext">Dias</div>
+				</div>
+				<div>
+					<span class="hours"></span>
+					<div class="smalltext">Hr</div>
+				</div>
+				<div>
+					<span class="minutes"></span>
+					<div class="smalltext">Min</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div style="height: 250px">
+		Conheça nossos carros
+	</div>
+</div>

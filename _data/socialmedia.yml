@@ -1,0 +1,14 @@
+- name: Twitter
+  url: https://twitter.com/dcmmotorsport
+  class: icon-twitter
+  title: "Siga as novidades no Twitter"
+
+- name: Facebook
+  url: https://www.facebook.com/dcmmotorsport
+  class: icon-facebook
+  title: "Confira a nossa página no Facebook"
+
+- name: Instagram
+  url: https://www.instagram.com/dcmsport/
+  class: icon-instagram
+  title: "Curta nossas fotos no Instagram"
