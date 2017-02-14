@@ -81,6 +81,7 @@ body.video cite { color: #fff; }
     color: #fff;
     text-transform: uppercase;
     text-shadow: 0 2px 3px rgba(0,0,0,.4);
+    padding: 0;
 }
 #masthead-no-image-header {
     height: 175px;
@@ -88,12 +89,64 @@ body.video cite { color: #fff; }
 #masthead-no-image-header #logo img {
     margin-top: 60px;
 }
-#masthead-sidebar{
+#masthead-sidebar {
     font-family: "Lato";
     text-transform: uppercase;
 }
+
 .masthead-title {
     font-weight: bold;
+}
+
+.masthead-sidebar-tile {
+    display:flex;
+    align-items:flex-end;
+    height: 250px;
+}
+
+.masthead-sidebar-row {
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 100px;
+}
+
+.masthead-sidebar-title-wrapper {
+    display: flex;
+}
+
+.masthead-sidebar-title {
+    background-color: $ci-5;
+    padding-left: 5px;
+    color: #FFF;
+    font-weight: bold;
+    width: 230px;
+}
+
+.masthead-sidebar-title-tab {
+    width: 0;
+    height: 0;
+    border-top: 0px solid transparent;
+    border-bottom: 24px solid transparent;
+    border-left: 7px solid $ci-5;
+    margin: 0;
+    padding: 0;
+}
+
+.masthead-sidebar-content {
+    color: #FFF;
+    font-weight: bold;
+}
+
+.next-race-time-wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 20px;
+    align-items: center;
+    height: 76px;
+}
+
+#masthead-with-text .backstretch{
+    border-right: solid 2px #000;
 }
 
 /* Masthead › small-only
@@ -114,7 +167,7 @@ body.video cite { color: #fff; }
     }
     #masthead-with-text {
         height: 220px;
-        padding: 30px 0;
+        padding: 0;
         font-size: rem-calc(36);
     }
     #masthead-no-image-header {
@@ -140,7 +193,7 @@ body.video cite { color: #fff; }
         padding: 20px 0;
     }
     #masthead-with-text {
-        padding: 60px 0;
+        padding: 0;
         height: 300px;
     }
 }
@@ -164,7 +217,7 @@ body.video cite { color: #fff; }
     }
     #masthead-with-text {
         height: 330px;
-        padding: 60px 0;
+        padding: 0;
     }
 }
 
@@ -176,8 +229,8 @@ body.video cite { color: #fff; }
 }
 
 .masterhead-home-sidebar{
-    height: 80%;
-/*    background-color: $ci-5; */
+    height: 500px;
+    padding: 0;
 }
 /* Masthead › xlarge-up
 ------------------------------------------------------------------- */
@@ -196,7 +249,7 @@ body.video cite { color: #fff; }
         padding: 45px 0;
     }
     #masthead-with-text {
-        padding: 95px 0;
+        padding: 0;
         height: 400px;
     }
 }

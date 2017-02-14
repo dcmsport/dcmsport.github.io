@@ -6,8 +6,8 @@
 #
 layout: frontpage
 header:
-  image_fullwidth: 'home.png'
-  title: 'Campeão da <br/> Old Stock Race <br/> Master'
+  image_fullwidth: 'home.jpg'
+  title: 'Old Stock Master Campeão'
   link: '/news/'
 widget1:
   title: "Blog & Portfolio"

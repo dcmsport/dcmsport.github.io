@@ -50,7 +50,7 @@ function get_next_race(){
 
 $(document).ready(function(){
   race = get_next_race();
-  $("#next_race_place").html(race.name);
+  $("#next-race-place").html(race.name);
   race_date = new Date(race.year, race.month - 1, race.day);
   initializeClock('clockdiv', race_date);
 } );
