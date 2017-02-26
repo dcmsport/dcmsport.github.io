@@ -1,12 +1,22 @@
 ---
 layout: page
-title: "Contact"
-meta_title: "Contact and use our contact form"
-subheadline: "Wufoo-powered contact forms"
-teaser: "Get in touch with me? Use the contact form."
+title: "Contato"
+teaser: "Fale conosco, deixe uma mensagem"
 permalink: "/contact/"
 ---
-If you need a fabulous contact form for your website, I suggest you use [Wufoo][1]. You can use three forms for free, you get no spam and if you get more than 100 entries you have to pay.
-
-
- [1]: http://www.wufoo.com/
+<form action="https://formspree.io/guilherme.dcmsport@gmail.com"
+      method="POST">
+    <div>
+        <input type="text" name="name" placeholder="*Seu Nome" required="required">
+    </div>
+    <div>
+        <input type="email" name="_replyto" placeholder="*Seu Email" required="required">
+    </div>
+    <div>
+        <input type="number" name="phone" placeholder="*Seu Telefone" required="required">
+    </div>
+    <div>
+        <textarea name="message" placeholder="*Sua Mensagem" required="required" rows="6"></textarea>
+    </div>
+    <input type="submit" value="Enviar">
+</form>

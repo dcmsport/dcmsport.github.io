@@ -1,9 +1,9 @@
 ---
 layout: page
 title: "DCM Motor Sport"
-subheadline: "Sobre"
+subheadline: "Equipe"
 teaser: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-permalink: "/about/"
+permalink: "/team/"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod

@@ -4,6 +4,7 @@
 - Adjustments: Video Layout
 - Navigation
 - Search
+- Top Bar
 - Masthead
 - Masthead › small-only
 - Masthead › medium-only
@@ -63,6 +64,15 @@ body.video cite { color: #fff; }
   display: none;
 }
 
+
+/* Top Bar
+------------------------------------------------------------------- */
+
+.top-bar-section {
+    .home-logo {
+        background-color: #FFF !important;
+    }
+}
 
 
 /* Masthead
@@ -376,7 +386,6 @@ body.video cite { color: #fff; }
 .credits a {
     color: $subfooter-link-color;
     border: 0;
-    text-transform: uppercase;
     &:hover {
         color: #fff;
   }
