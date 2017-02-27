@@ -1,14 +1,33 @@
 ---
 layout: page
-subheadline: "Header"
-title: "Style your Header!"
-teaser: "These are your options to style the header of each webpage individually. <em>Feeling Responsive</em> uses <a href='http://srobbin.com/jquery-plugins/backstretch/'>Backstretch by Scott Robin</a> to expand them from left to right. The width should be 1600 pixel or higher using a ratio like 16:9 or 21:9 or 2:1."
+title: "Competições"
+teaser: "A DCM Motor Sport está atualmente engajada com as seguintes competições:"
 header:
-   image_fullwidth: "header_unsplash_5.jpg"
+   image_fullwidth: "header_team2.jpg"
+   title: "Competições"
 permalink: "/competitions/"
 ---
-<ul>
-    {% for post in site.tags.header %}
-    <li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-</ul>
+
+<div class="row t60">
+    <div class="medium-6 columns">
+        <img src="{{ site.urlimg }}stock_car_competition.jpg" alt="Stock Car">
+    </div>
+
+    <div class="medium-6 columns">
+        <h3>Stock Car</h3>
+        <p><a href="http://www.stockcar.com.br">Site Oficial</a></p>
+    </div>
+</div>
+
+
+<div class="row t60">
+    <div class="medium-6 columns">
+        <img src="{{ site.urlimg }}mb_challenge_competition.jpg" alt="MB Challenge">
+    </div>
+
+    <div class="medium-6 columns">
+        <h3>Mercedes-Benz Challenge</h3>
+        <p><a href="http://mbchallenge.com.br">Site Oficial</a></p>
+    </div>
+</div>
+

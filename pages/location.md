@@ -4,7 +4,7 @@ title: "QG"
 teaser: "Onde estamos?"
 permalink: "/location/"
 header:
-   image_fullwidth: "header_roadmap_2.jpg"
+   image_fullwidth: "header_location.jpg"
    title: "QG"
 
 ---

@@ -2,6 +2,9 @@
 layout: page
 title: "Contato"
 teaser: "Fale conosco, deixe uma mensagem"
+header:
+   image_fullwidth: "header_unsplash_4.jpg"
+   title: "Equipe"
 permalink: "/contact/"
 ---
 <form action="https://formspree.io/guilherme.dcmsport@gmail.com"
