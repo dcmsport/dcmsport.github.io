@@ -35,6 +35,7 @@ function initializeClock(id, endtime) {
 
 function get_next_race(){
   var current_date = new Date();
+  var races = races || [];
   for(var race_idx in races){
     race_date = new Date(
       races[race_idx].year,
@@ -50,7 +51,9 @@ function get_next_race(){
 
 $(document).ready(function(){
   race = get_next_race();
-  $("#next-race-place").html(race.name);
-  race_date = new Date(race.year, race.month - 1, race.day);
-  initializeClock('clockdiv', race_date);
-} );
+  if(race) {
+    $("#next-race-place").html(race.name);
+    race_date = new Date(race.year, race.month - 1, race.day);
+    initializeClock('clockdiv', race_date);
+  }
+});

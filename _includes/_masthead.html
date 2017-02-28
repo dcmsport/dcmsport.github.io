@@ -16,9 +16,9 @@
 
 {% elsif page.header.title %}
 	<div class="row" style="margin: 0px; width: 100%; max-width: none;
-	{% if page.homepage %}
-		 height: 500px;
-	{% endif %}">
+		{% if page.homepage %}
+			 height: 500px;
+		{% endif %}">
 		<div id="masthead-with-text"
 			{% if page.homepage %}
 				class="masterhead-home medium-9 small-12 columns"
