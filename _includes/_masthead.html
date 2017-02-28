@@ -32,8 +32,8 @@
 			{% endif %}">
 			<a style="color: #FFFFFF;line-height: 100px;display:flex;" href="{% if page.header.link %}{{ page.header.link }}{% elsif page.homepage %}{{ site.posts.first.url }}{% else%}#{% endif%}">
 				{% if page.homepage %}
-					<div  class="show-for-medium-up" style="width: 0;height: 0;border-top: 0px solid transparent;border-bottom: 100px solid transparent;border-right: 18px solid rgba(0,0,0,0.8);margin: 0;padding: 0;"></div>
-					<span class="masthead-title">{{ site.posts.first.title }}</span>
+					<div  class="show-for-large-up" style="width: 0;height: 0;border-top: 0px solid transparent;border-bottom: 100px solid transparent;border-right: 18px solid rgba(0,0,0,0.8);margin: 0;padding: 0;"></div>
+					<span class="masthead-title">{{ site.posts.first.hometitle }}</span>
 				{% endif%}
 			</a>
 		</div><!-- /#masthead -->

@@ -1,8 +1,9 @@
 ---
 layout: page
-title:  "Campeão Old Stock Car"
+title:  "Campeão Master Old Stock Race"
+hometitle: "Campeão Master Old Stock"
 image:
-    title: post_2017-02-28-1.jpg
+    title: posts/2017-02-28-1.jpg
 teaser: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat."
 ---
