@@ -22,7 +22,7 @@ author: dcmsport
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
 # TODO: Flip this
-url: 'http://www.dcmsport.com.br'
+url: 'http://dcmsport.com.br'
 # url: 'http://localhost:4000'
 baseurl: ''
 
@@ -37,7 +37,7 @@ improve_content: https://github.com/Phlow/feeling-responsive/edit/gh-pages
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
 # TODO: Flip this
-urlimg: 'http://www.dcmsport.com.br/images/'
+urlimg: 'http://dcmsport.com.br/images/'
 # urlimg: 'http://localhost:4000/images/'
 
 
