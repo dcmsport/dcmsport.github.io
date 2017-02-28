@@ -21,5 +21,5 @@ permalink: "/contact/"
     <div>
         <textarea name="message" placeholder="*Sua Mensagem" required="required" rows="6"></textarea>
     </div>
-    <input type="submit" value="Enviar">
+    <input type="submit" value="Enviar" class="button right">
 </form>
