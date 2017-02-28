@@ -14,7 +14,7 @@
 		{% include _breadcrumb.html %}
 	{% endif %}
 
-{% elsif page.header.title %}
+{% elsif page.header.title or page.homepage %}
 	<div class="row" style="margin: 0px; width: 100%; max-width: none;
 		{% if page.homepage %}
 			 height: 500px;
@@ -30,10 +30,10 @@
 			{% if page.header.pattern %}
 				background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url('{{ site.urlimg }}/{{ page.header.pattern }}')
 			{% endif %}">
-			<a style="color: #FFFFFF;line-height: 100px;display:flex;" href="{% if page.header.link %}{{ page.header.link }}{% else %}#{% endif%}">
+			<a style="color: #FFFFFF;line-height: 100px;display:flex;" href="{% if page.header.link %}{{ page.header.link }}{% elsif page.homepage %}{{ site.posts.first.url }}{% else%}#{% endif%}">
 				{% if page.homepage %}
 					<div  class="show-for-medium-up" style="width: 0;height: 0;border-top: 0px solid transparent;border-bottom: 100px solid transparent;border-right: 18px solid rgba(0,0,0,0.8);margin: 0;padding: 0;"></div>
-					<span class="masthead-title">{{ page.header.title }}</span>
+					<span class="masthead-title">{{ site.posts.first.title }}</span>
 				{% endif%}
 			</a>
 		</div><!-- /#masthead -->

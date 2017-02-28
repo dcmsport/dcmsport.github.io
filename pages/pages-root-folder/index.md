@@ -3,10 +3,10 @@ layout: frontpage
 permalink: /index.html
 
 homepage: true
+
 header:
-  image_fullwidth: 'home.jpg'
-  title: 'Campeão Old Stock Master'
-  link: '/news/'
+  ok: 'ok'
+
 widget1:
   title: "Blog & Portfolio"
   url: 'http://phlow.github.io/feeling-responsive/blog/'

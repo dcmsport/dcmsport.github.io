@@ -9,7 +9,6 @@ permalink: "/news/"
 <div class="row">
     
     <div class="medium-8 columns">
-        {{ site.posts.class }}
         <ul class="no-bullet">
             {% for post in site.posts limit:3 %}
               <li class="b60">
@@ -38,5 +37,5 @@ permalink: "/news/"
                 {% endfor %}
             </ul>
         </div>
-    </div><!-- /.medium-4.columns -->
+    </div>
 </div>

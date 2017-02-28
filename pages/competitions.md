@@ -3,7 +3,7 @@ layout: page
 title: "Competições"
 teaser: "A DCM Motor Sport está atualmente engajada com as seguintes competições:"
 header:
-   image_fullwidth: "header_team2.jpg"
+   image_fullwidth: "header_competitions.jpg"
    title: "Competições"
 permalink: "/competitions/"
 ---

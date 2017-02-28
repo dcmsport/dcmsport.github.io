@@ -15,6 +15,12 @@ $('audio,video').mediaelementplayer();
 </script>
 {% endif %}
 
+{% if page.homepage %}
+	<script>
+	    $("#masthead").backstretch("{{ site.urlimg }}{{ site.posts.first.image.title }}");
+	    $("#masthead-with-text").backstretch("{{ site.urlimg }}{{ site.posts.first.image.title }}");
+	</script>
+{% endif %}
 
 
 {% if site.google_analytics_tracking_id %}
