@@ -106,6 +106,9 @@ body.video cite { color: #fff; }
 
 .masthead-title {
     font-weight: bold;
+    background-color: rgba(0,0,0,0.8);
+    padding: 0 15px;
+    text-align: center;
 }
 
 .masthead-sidebar-tile {
@@ -159,6 +162,9 @@ body.video cite { color: #fff; }
     border-right: solid 2px #000;
 }
 
+.white-letter {
+    color: #FFF;
+}
 /* Masthead › small-only
 ------------------------------------------------------------------- */
 
@@ -182,6 +188,9 @@ body.video cite { color: #fff; }
     }
     #masthead-no-image-header {
         display: none;
+    }
+    .masthead-title {
+        line-height: 65px;
     }
 }
 

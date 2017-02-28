@@ -30,12 +30,10 @@
 			{% if page.header.pattern %}
 				background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url('{{ site.urlimg }}/{{ page.header.pattern }}')
 			{% endif %}">
-			<a style="color: #FFFFFF;height: 100px;line-height: 100px;display:flex;margin-bottom: 76px;" href="{% if page.header.link %}{{ page.header.link }}{% else %}#{% endif%}">
+			<a style="color: #FFFFFF;line-height: 100px;display:flex;" href="{% if page.header.link %}{{ page.header.link }}{% else %}#{% endif%}">
 				{% if page.homepage %}
-					<div style="width: 0;height: 0;border-top: 0px solid transparent;border-bottom: 100px solid transparent;border-right: 18px solid rgba(0,0,0,0.8);margin: 0;padding: 0;"></div>
-				{% endif %}
-				{% if page.homepage %}
-				<div class="masthead-title" style="background-color: rgba(0,0,0,0.8);padding: 0 15px;">{{ page.header.title }}</div>
+					<div  class="show-for-medium-up" style="width: 0;height: 0;border-top: 0px solid transparent;border-bottom: 100px solid transparent;border-right: 18px solid rgba(0,0,0,0.8);margin: 0;padding: 0;"></div>
+					<span class="masthead-title">{{ page.header.title }}</span>
 				{% endif%}
 			</a>
 		</div><!-- /#masthead -->
