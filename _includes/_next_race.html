@@ -1,5 +1,5 @@
 <script type="text/javascript">
-	clockModule = clockModule || {}
+	clockModule = clockModule || {};
 	clockModule.races = clockModule.races || [];
 	{% for race in site.data.races %}
 		clockModule.races.push({
@@ -8,7 +8,7 @@
 			"month": "{{race.date}}".substring(3,5),
 			"year":  "{{race.date}}".substring(6),
 			"stage": "{{race.stage}}"
-		})
+		});
 	{% endfor %}
 </script>
 
