@@ -1,7 +1,8 @@
 <script type="text/javascript">
-	var races = [];
+	clockModule = clockModule || {}
+	clockModule.races = clockModule.races || [];
 	{% for race in site.data.races %}
-		races.push({
+		clockModule.races.push({
 			"name":  "{{race.name}}",
 			"day":   "{{race.date}}".substring(0,2),
 			"month": "{{race.date}}".substring(3,5),

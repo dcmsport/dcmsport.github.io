@@ -1,59 +1,71 @@
-function getTimeRemaining(endtime) {
-  var t = Date.parse(endtime) - Date.parse(new Date());
-  var minutes = Math.floor((t / 1000 / 60) % 60);
-  var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
-  var days = Math.floor(t / (1000 * 60 * 60 * 24));
-  return {
-    'total': t,
-    'days': days,
-    'hours': hours,
-    'minutes': minutes
-  };
-}
+var clockModule = clockModule || {};
 
-function initializeClock(id, endtime) {
-  var clock = document.getElementById(id);
-  var daysSpan = clock.querySelector('.days');
-  var hoursSpan = clock.querySelector('.hours');
-  var minutesSpan = clock.querySelector('.minutes');
+(function() {
+  function getTimeRemaining(endtime) {
+    var t = Date.parse(endtime) - Date.parse(new Date());
+    var minutes = Math.floor((t / 1000 / 60) % 60);
+    var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+    var days = Math.floor(t / (1000 * 60 * 60 * 24));
+    return {
+      'total': t,
+      'days': days,
+      'hours': hours,
+      'minutes': minutes
+    };
+  }
 
-  function updateClock() {
-    var t = getTimeRemaining(endtime);
+  function initializeClock(id, endtime) {
+    var clock = document.getElementById(id);
+    var daysSpan = clock.querySelector('.days');
+    var hoursSpan = clock.querySelector('.hours');
+    var minutesSpan = clock.querySelector('.minutes');
 
-    daysSpan.innerHTML = t.days;
-    hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
-    minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
+    function updateClock() {
+      var t = getTimeRemaining(endtime);
 
-    if (t.total <= 0) {
-      clearInterval(timeinterval);
+      daysSpan.innerHTML = t.days;
+      hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
+      minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
+
+      if (t.total <= 0) {
+        clearInterval(timeinterval);
+      }
+    }
+
+    updateClock();
+    var timeinterval = setInterval(updateClock, 1000);
+  }
+
+  function get_next_race(){
+    var current_date = new Date();
+
+    for(var race_idx in races){
+      race_date = new Date(
+        races[race_idx].year,
+        races[race_idx].month - 1,
+        races[race_idx].day
+      );
+      if (race_date > current_date){
+        return races[race_idx];
+      }
+    }
+    return races[0];
+  }
+
+  function init() {
+    race = get_next_race();
+    if(race) {
+      $("#next-race-place").html(race.name);
+      race_date = new Date(race.year, race.month - 1, race.day);
+      initializeClock('clockdiv', race_date);
     }
   }
 
-  updateClock();
-  var timeinterval = setInterval(updateClock, 1000);
-}
-
-function get_next_race(){
-  var current_date = new Date();
-  var races = races || [];
-  for(var race_idx in races){
-    race_date = new Date(
-      races[race_idx].year,
-      races[race_idx].month - 1,
-      races[race_idx].day
-    );
-    if (race_date > current_date){
-      return races[race_idx];
-    }
-  }
-  return races[0];
-}
+  var races = clockModule.races || [];
+  clockModule.races = Object.assign(races);
+  clockModule.init = init;
+})();
 
 $(document).ready(function(){
-  race = get_next_race();
-  if(race) {
-    $("#next-race-place").html(race.name);
-    race_date = new Date(race.year, race.month - 1, race.day);
-    initializeClock('clockdiv', race_date);
-  }
+  clockModule.init();
 });
