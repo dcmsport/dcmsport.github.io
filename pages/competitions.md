@@ -14,7 +14,7 @@ permalink: "/competitions/"
     </div>
 
     <div class="medium-6 columns">
-        <h3>Stock Car</h3>
+        <h3>Torneio Brasileiro de Old Stock Race</h3>
         <p><a href="http://www.stockcar.com.br">Site Oficial</a></p>
     </div>
 </div>

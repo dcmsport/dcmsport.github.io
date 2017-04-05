@@ -19,24 +19,26 @@
 		{% if page.homepage %}
 			 height: 500px;
 		{% endif %}">
-		<div id="masthead-with-text"
-			{% if page.homepage %}
-				class="masterhead-home medium-9 small-12 columns"
-				style="height: 500px;display: flex;align-items: flex-end;justify-content: flex-end;
-			{% endif %}
-			{% if page.header.background-color %}
-				background: {{ page.header.background-color }};
-			{% endif %}
-			{% if page.header.pattern %}
-				background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url('{{ site.urlimg }}/{{ page.header.pattern }}')
-			{% endif %}">
-			<a style="color: #FFFFFF;line-height: 100px;display:flex;" href="{% if page.header.link %}{{ page.header.link }}{% elsif page.homepage %}{{ site.posts.first.url }}{% else%}#{% endif%}">
+		<a href="{% if page.header.link %}{{ page.header.link }}{% elsif page.homepage %}{{ site.posts.first.url }}{% else%}#{% endif%}">
+			<div id="masthead-with-text"
 				{% if page.homepage %}
-					<div  class="show-for-large-up" style="width: 0;height: 0;border-top: 0px solid transparent;border-bottom: 100px solid transparent;border-right: 18px solid rgba(0,0,0,0.8);margin: 0;padding: 0;"></div>
-					<span class="masthead-title">{{ site.posts.first.hometitle }}</span>
-				{% endif%}
-			</a>
-		</div><!-- /#masthead -->
+					class="masterhead-home medium-9 small-12 columns"
+					style="height: 500px;display: flex;align-items: flex-end;justify-content: flex-end;
+				{% endif %}
+				{% if page.header.background-color %}
+					background: {{ page.header.background-color }};
+				{% endif %}
+				{% if page.header.pattern %}
+					background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url('{{ site.urlimg }}/{{ page.header.pattern }}')
+				{% endif %}">
+				<div style="color: #FFFFFF;line-height: 100px;display:flex;">
+					{% if page.homepage %}
+						<div  class="show-for-large-up" style="width: 0;height: 0;border-top: 0px solid transparent;border-bottom: 100px solid transparent;border-right: 18px solid rgba(0,0,0,0.8);margin: 0;padding: 0;"></div>
+						<span class="masthead-title">{{ site.posts.first.hometitle }}</span>
+					{% endif%}
+				</div>
+			</div><!-- /#masthead -->
+		</a>
 		{% if page.homepage %}
 			{% include _next_race.html %}
 		{% endif %}
