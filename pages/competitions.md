@@ -10,24 +10,11 @@ permalink: "/competitions/"
 
 <div class="row t60">
     <div class="medium-6 columns">
-        <img src="{{ site.urlimg }}stock_car_competition.jpg" alt="Stock Car">
+        <img src="{{ site.urlimg }}old_stock_race_competition.jpg" alt="Stock Car">
     </div>
 
     <div class="medium-6 columns">
         <h3>Torneio Brasileiro de Old Stock Race</h3>
-        <p><a href="http://www.stockcar.com.br">Site Oficial</a></p>
+        <p><a target="_blank" href="http://oldstockrace.com.br">Site Oficial</a></p>
     </div>
 </div>
-
-
-<div class="row t60">
-    <div class="medium-6 columns">
-        <img src="{{ site.urlimg }}mb_challenge_competition.jpg" alt="MB Challenge">
-    </div>
-
-    <div class="medium-6 columns">
-        <h3>Mercedes-Benz Challenge</h3>
-        <p><a href="http://mbchallenge.com.br">Site Oficial</a></p>
-    </div>
-</div>
-
