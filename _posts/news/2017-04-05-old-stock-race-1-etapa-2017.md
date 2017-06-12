@@ -3,36 +3,36 @@ layout: page
 title:  "1ª Etapa Old Stock Race"
 hometitle: "1ª Etapa Old Stock"
 image:
-    title: posts/2017-02-28-1.jpg
+    title: posts/2017-04-05-1.jpg
 teaser: "De volta às pistas, os Opalas recomeçaram acelerando fundo!"
 tags:
   - old stock race
 ---
 
-Começamos a segunda edição da Old Stock Race no dia 2 de abril.
-Essa categoria que contou com 8 etapas, num total de 16 corridas, representa o resgate da emoção da Stock Car no final da década de 70.
+Voltamos à segunda edição da Old Stock Race dia 2 de abril. Esta categoria que contou com 8 etapas no ano de 2016 vem com uma etapa a mais esse ano e resgata a emoção da Stock Car no final da década de 70.
 
+**Data das Etapas Old Stock Race 2017:**
 
-https://www.facebook.com/oldstockraceoficial/posts/1084110988399416
+Etapa  | Data
+------ | -----------
+1ª     | 02 Abril
+2ª     | 30 Abril
+3ª     | 21 Maio
+4ª     | 11 Junho
+5ª     | 02 Julho
+6ª     | 30 Julho
+7ª     | 20 Agosto
+8ª     | 03 Setembro
+9ª     | 17 Dezembro
 
+A DCM Motor Sport conquistou a 3ª colocação na categoria *Master* na última edição, esse ano estreia a competição com o carro **#93** pilotado pelo Felipe Matos e o número **#11** pilotado pelo Tiago Gonçalves e Molly Robson.
 
-**Lista de Corridas:**
+A corrida teve um saldo positivo pra equipe, o Opala **#11** chegou na ponta na primeira bateria, garantindo assim a primeira colocação da classificação geral com 30 pontos. Nas mãos de Molly o carro conquistou a 8ª colocação na classificação geral.
 
-Etapa  | Data        | Local
------- | ----------- | -----
-1ª     | 03 Abril    | Interlagos - São Paulo
-2ª     | 15 Maio     | Interlagos - São Paulo
-3ª     | 05 Junho    | Interlagos - São Paulo
-4ª     | 24 Julho    | Interlagos - São Paulo
-5ª     | 14 Agosto   | Interlagos - São Paulo
-6ª     | 16 Outubro  | Goiânia - Goiás
-7ª     | 20 Novembro | Curitiba - Paraná
-8ª     | 18 Dezembro | Interlagos - São Paulo
+O carro **#93** com Felipe conquistou a 10ª colocação na classificação geral.
 
-A qualidade dos carros da DCM Motor Sport unido à pilotagem do piloto Luiz Carlos Zappelini atrás do volante, trouxeram a 3ª colocação no campeonato na categoria **Old Man**.
+Caso queira ver a classificação completa, basta conferir [no perfil oficial da competição](https://www.facebook.com/oldstockraceoficial/posts/1084110988399416).
 
-> Na classe "Old Man" (para pilotos acima de 55 anos) o campeão foi Vinicius Pimentel do Opala 38 com 224 pontos, seguido por Jorge Schuback do opala numeral 25 em segundo com 210 pontos e Luiz Zapellini em terceiro, que ao longo da temporada andou nos opalas 72 e 87, conquistando 174 pontos no total.
->
-> [Página da Old Stock Race](https://www.facebook.com/oldstockraceoficial/photos/pcb.1053075991502916/1053070701503445/)
+Essa temporada será cheia de emoções. Tem mudanças vindo aí na equipe, fiquem atentos!
 
-Estaremos de volta à Old Stock Race em **2 de abril de 2017**, acelerando no início da 2ª edição da competição. Pisaremos fundo em Interlagos (São Paulo/SP) para mais um ano de muita adrenalina.
+**Créditos da foto: [André Lemes](https://www.facebook.com/andre.lemes1975)**
